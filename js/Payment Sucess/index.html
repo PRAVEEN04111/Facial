@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Success</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+    <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+      <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10 text-center">
+        <span class="icon check-circle"></span>
+        
+        <h2 class="mt-6 text-3xl font-extrabold text-gray-900">
+          Payment Successful!
+        </h2>
+        
+        <p class="mt-2 text-sm text-gray-600">
+          Your booking has been confirmed and you will receive an email with the details shortly.
+        </p>
+
+        <div class="mt-8 bg-gray-50 p-4 rounded-md">
+          <h3 class="text-lg font-medium text-gray-900">Booking Details</h3>
+          <dl class="mt-4 space-y-2">
+            <div class="flex justify-between">
+              <dt class="text-sm font-medium text-gray-500">Booking ID</dt>
+              <dd class="text-sm font-medium text-gray-900">BOK123456</dd>
+            </div>
+            <div class="flex justify-between">
+              <dt class="text-sm font-medium text-gray-500">Amount Paid</dt>
+              <dd class="text-sm font-medium text-gray-900">₹2,100</dd>
+            </div>
+            <div class="flex justify-between">
+              <dt class="text-sm font-medium text-gray-500">Payment Method</dt>
+              <dd class="text-sm font-medium text-gray-900">Credit Card</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="mt-6">
+          <a
+            href="/"
+            class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          >
+            Return to Home
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
